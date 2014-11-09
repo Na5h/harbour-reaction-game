@@ -37,7 +37,7 @@ Requires:   qt5-qtdeclarative-import-qttest
 BuildRequires:  pkgconfig(Qt5QuickTest)
 
 %description test
-Test package for the Reaction Game for Sailfish
+Tests package for the Reaction Game for Sailfish
 
 %prep
 %setup -q -n %{name}-%{version}

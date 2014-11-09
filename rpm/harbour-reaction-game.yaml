@@ -1,13 +1,13 @@
 Name: harbour-reaction-game
-Summary: Helloworld Pro for Sailfish
-Version: 0.4
-Release: 4
+Summary: Reaction Game for Sailfish
+Version: 1.3
+Release: 2
 Group: Qt/Qt
-License: Public domain except for the icon
+License: MIT
 Sources:
 - '%{name}-%{version}.tar.bz2'
 Description: |-
-  Missing Helloworld for Sailfish OS. Use this project for a good app start
+  Reaction Game for Sailfish OS.
 Configure: none
 Builder: qtc5
 PkgConfigBR:
@@ -29,10 +29,10 @@ PkgBR: []
 
 SubPackages:
     - Name: test
-      Summary: Tests for the Helloworld Pro for Sailfish
+      Summary: Tests for the Reaction Game for Sailfish
       Group: Qt/Qt
       Description: |-
-        Tests package for the Helloworld Pro for Sailfish
+        Tests package for the Reaction Game for Sailfish
       AutoDepend: true
       PkgConfigBR:
       - Qt5QuickTest

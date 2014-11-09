@@ -114,7 +114,7 @@ function newGame(){
 // Set a new random button as active
 function setButtonActive(){
     var rand = buttons_arr[Math.floor(Math.random() * buttons_arr.length)];
-    console.log(rand);
+
     // Increase speed?
     if(iteration === 13)
     {
@@ -138,7 +138,7 @@ function setButtonActive(){
     if(iteration !== 0 && hit === 0){
         reset();
         setButtonsReady(0);
-
+        pulldown.visible = true;
         gamestatus.text = status_messages[2];
     }
 
