@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Name=Reaction Game
+Icon=harbour-reaction-game
+Exec=harbour-reaction-game
