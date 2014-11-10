@@ -7,11 +7,11 @@ Page {
     id: page
 
     SilicaFlickable {
+        id: flickable
         anchors.fill: parent
         contentHeight: column.height
 
         PullDownMenu {
-
             id: pulldown
             visible: true
 

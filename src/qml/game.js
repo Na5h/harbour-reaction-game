@@ -61,15 +61,15 @@ function setButtonInactive(button_no){
     }
     else if(button_no === 2){
         greenbutton.highlighted = false;
-        //greenbutton.update();
+        greenbutton.update();
     }
     else if(button_no === 3){
         yellowbutton.highlighted = false;
-        //yellowbutton.update();
+        yellowbutton.update();
     }
     else if(button_no === 4){
         purplebutton.highlighted = false;
-        //purplebutton.update();
+        purplebutton.update();
     }
 }
 
@@ -145,25 +145,21 @@ function setButtonActive(){
     if(rand === "redbutton"){
         redbutton.highlighted = true;
         redbutton.icon.source = "image://myIcons/button_red_active";
-        //redbutton.update();
         active_button_no = 1;
     }
     else if(rand === "greenbutton"){
         greenbutton.highlighted = true;
         greenbutton.icon.source = "image://myIcons/button_green_active";
-        //greenbutton.update();
         active_button_no = 2;
     }
     else if(rand === "yellowbutton"){
         yellowbutton.highlighted = true;
         yellowbutton.icon.source = "image://myIcons/button_yellow_active";
-        //yellowbutton.update();
         active_button_no = 3;
     }
     else if(rand === "purplebutton"){
         purplebutton.highlighted = true;
         purplebutton.icon.source = "image://myIcons/button_purple_active";
-        //purplebutton.update();
         active_button_no = 4;
     }
     iteration++;
